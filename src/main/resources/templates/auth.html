@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Авторизация</title>
+  <link rel="shortcut icon" href="/img/favicon.ico">
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/main.css">
+  <script defer src="js/jquery-3.6.1.js"></script>
+  <script defer src="/js/bootstrap.bundle.min.js"></script>
+  <script defer src="/js/main.js"></script>
+  <script defer src="/js/auth.js"></script>
+</head>
+<body>
+
+<div id="includedHeader" class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm"></div>
+
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-md-8 mb-4">
+      <div id="authorization-user-wrapper">
+        <h2><p id="authorization-user"></p></h2>
+        <button class="btn btn-danger" id="exit_authorization">Выйти</button>
+      </div>
+      <div id="form-wrapper">
+        <h4>Форма авторизации</h4>
+        <form>
+          <label for="login">Логин</label>
+          <input type="text" name="login" id="login" class="form-control">
+
+          <label for="pass">Пароль</label>
+          <input type="password" name="pass" id="pass" class="form-control">
+
+          <div class="alert alert-danger mt-2" id="errorBlock"></div>
+
+          <button id="authorization-submit" type="button" class="btn btn-success mt-3">Войти</button>
+        </form>
+        </div>
+    </div>
+
+    <div id="includedAside" class="col-md-4"></div>
+  </div>
+</div>
+
+<div id="includedFooter" class="footer"></div>
+
+</body>
+</html>
