@@ -21,7 +21,7 @@ function blockButton(result) {
     if (result == '') {
         $('#wrapper-in-button').show();
     } else {
-        $('#wrapper-cabinet-button').show();
+        $('.wrapper-cabinet-button').show();
         $('#wrapper-cabinet-article').show();
     }
 }

@@ -13,7 +13,7 @@
     display: none;
 }
 
-#wrapper-in-button, #wrapper-cabinet-button, #wrapper-cabinet-article {
+#wrapper-in-button, .wrapper-cabinet-button, #wrapper-cabinet-article {
     display: none;
 }
 
